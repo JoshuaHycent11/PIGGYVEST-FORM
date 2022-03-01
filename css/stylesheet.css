@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.links-section {
+    display: flex;
+    align-items: center;
+}
+
+.links-section ul {
+    display: flex;
+    list-style: none;
+}
+
+.links-section ul li {
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+.links-section ul li a {
+    text-decoration: none;
+    color: #083E9E;
+}
+
+.btn {
+    color: #083E9E;
+    width: 125px;
+    height: 50px;
+    font-family: inherit;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #083E9E;
+}
+
+.blunt-section {
+    width: 100%;
+    height: 121vh;
+    background-repeat: no-repeat;
+    background-image: url(../css/images/excited-black-girl-holding-smartphone-gesturing-yes-studio-shot-standing-over-orange-background-161694758-removebg-preview\ 1.png);
+}
+
+.piggy-section {
+    width: 80%;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-top: 35px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #083E9E;
+}
+
+.form-action {
+    display: flex;
+    margin-top: 70px;
+}
+
+.form-action label {
+    display: flex;
+    padding: 10px;
+    color: #083E9E;
+}
+
+.form-action input {
+    padding: 15px;
+    width: 210px;
+    margin: 15px;
+    border-radius: 10px 10px 10px 0px;
+    border: 1px solid #083E9E;
+}
+
+.form-action select {
+    padding: 15px;
+    width: 210px;
+    margin: 15px;
+    border-radius: 10px 10px 10px 0px;
+    border: 1px solid #083E9E;
+}
+
+.dector {
+    margin-top: 30px;
+}
+
+.dector label {
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+    color: #083E9E;
+}
+
+.dector input {
+    padding: 3px;
+    margin: 5px;
+    width: 120px;
+    height: 55px;
+    border-style: none;
+    border-radius: 10px 10px 10px 0px;
+    border: 1px solid #083E9E;
+}
+
+input.calender {
+    padding: 10px;
+}
+
+.click label {
+    display: flex;
+    color: #083E9E;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.click button {
+    width: 200px;
+    height: 55px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 25px;
+    padding-right: 80px;
+    background: #0D5ED3;
+    border-radius: 10px 10px 10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .blunt-section {
+        width: 121%;
+        height: 110vh;
+    }
+    .links-section ul li {
+        margin-right: 15px;
+        font-size: 22px;
+        margin-left: 22px;
+    }
+    .heading {
+        font-size: 53px;
+    }
+    .form-action input {
+        height: 67px;
+        width: 239px;
+    }
+    .form-action select {
+        height: 67px;
+        width: 239px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .blunt-section {
+        background-image: none;
+    }
+    .links-section {
+        flex-direction: column;
+    }
+    .links-section ul li {
+        margin-left: 1px;
+        margin-right: 27px;
+        font-size: 14px;
+    }
+    .btn {
+        width: 89px;
+        height: 33px;
+        margin-left: 169px;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .heading {
+        margin-top: -22px;
+        font-size: 30px;
+        line-height: 55px;
+    }
+    .form-action {
+        flex-direction: column;
+    }
+}
